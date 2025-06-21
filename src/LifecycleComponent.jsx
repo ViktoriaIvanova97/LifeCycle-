@@ -48,7 +48,7 @@ class LifecycleComponent extends React.Component {
     return (
       <>
         <p>{this.state.count}</p>
-        <button onClick={this.increment}>+1</button>
+        <button onClick={this.increment}>++</button>
       </>
     );
   }
